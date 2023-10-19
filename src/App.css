@@ -39,7 +39,8 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 3px solid #000000;
+  border-radius: 6px;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -52,9 +53,11 @@ h1 {
 }
 
 .todo-btn {
-  background: #8758ff;
+  background: #4e15dc;
   color: #fff;
   border: none;
+  border-radius: 5px;
+  margin-left: 5%;
   padding: 0.55rem;
   cursor: pointer;
 }
@@ -63,7 +66,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
+  background: #5512ff;
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
@@ -78,7 +81,6 @@ h1 {
   color: #fff;
   cursor: pointer;
 }
-
 .completed {
   color: #c5aeff;
   text-decoration: line-through;
@@ -88,5 +90,6 @@ h1 {
 .edit-icon,
 .delete-icon {
   cursor: pointer;
+  margin-left: 10px;
 }
  
